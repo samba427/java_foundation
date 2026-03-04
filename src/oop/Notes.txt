@@ -1,0 +1,16 @@
+We are using this for all notes and stuff pretty useful and all
+
+NOTE 1
+this is sm new that we can do..... suppose:
+Animal a = new Dog();
+when we write this, new Dog() allocates memory and actually creates the object, storing its variables in the memory
+Dog d creates a reference variable... a reference is what stores the address of the obj and points to where the obj lives in the memory
+
+now when we have a class dog that is inheriting from the class Animal,
+we can write:
+Animal a = new Dog();
+So the object created is dog and the reference type is animal... now the difference is the most important aspect
+
+the reference type decides what methods we can call during compilation... so if a method is in Animal can be called but if in Dog and not in Animal cant be called
+the obj type decides about which overridden method actually runs
+so when overriding methods if they have the same signature the one from Dog will run but for methods only in Dog and not in Animal it wont run
