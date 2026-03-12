@@ -17,3 +17,5 @@ public class Main
         fish.hunt();
     }
 }
+
+//check out NOTE 2

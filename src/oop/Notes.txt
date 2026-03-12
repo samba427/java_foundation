@@ -14,3 +14,10 @@ So the object created is dog and the reference type is animal... now the differe
 the reference type decides what methods we can call during compilation... so if a method is in Animal can be called but if in Dog and not in Animal cant be called
 the obj type decides about which overridden method actually runs
 so when overriding methods if they have the same signature the one from Dog will run but for methods only in Dog and not in Animal it wont run
+
+NOTE 2
+abt inheritance and interfaces
+languages when allowing multiclass inheritance run into the diamond problem... if two classes have the same method and a class extends both then which version of the method should this class be using
+so java doesnt want this bs and just keeps inheritance as one allowed... meanwhile interfaces there is no limit...
+again abt why thats cause the interface only gives a contract that this method must exist by hook or by crook... so even if 2 classes have the same methods it wont matter as the actual method is in the class implementing them
+and as long as they are being implemented everyone is satisfied
