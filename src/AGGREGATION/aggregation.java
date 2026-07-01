@@ -1,5 +1,6 @@
+//aggregation: it represents a has-a reln b/w objs.
+//one obj contains another as a part of its strct, but the contained objs can exist independently.
 package AGGREGATION;
-
 public class aggregation
 {
     public static void main(String[] args)
