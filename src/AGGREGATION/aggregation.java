@@ -13,5 +13,8 @@ public class aggregation
         for(Book book : books)
             System.out.println(book.displayinfo());
 
+        Library library=new Library("National Library", 1896,books);//aggregation
+        library.displayinfo();
+
     }
 }

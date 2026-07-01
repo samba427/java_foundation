@@ -10,7 +10,14 @@ public class Library {
         this.name=name;
         this.year=year;
         this.books=books;
+    }
 
+    void displayinfo()
+    {
+        System.out.println("The "+this.year+" "+this.name);
+        System.out.println("books available");
+        for(Book book : books)
+            System.out.println(book.displayinfo());
     }
 
 
