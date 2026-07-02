@@ -72,13 +72,5 @@ public class Dice_roller
             System.out.println("|o   o|");
             System.out.println("-------");
         }
-        if(n==6)
-        {
-            System.out.println("-------");
-            System.out.println("|     |");
-            System.out.println("|  o  |");
-            System.out.println("|     |");
-            System.out.println("-------");
-        }
     }
 }
